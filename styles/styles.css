@@ -1,0 +1,104 @@
+:root {
+  --font: "Figtree", serif;
+  --fontsize-paragraph: 1.6rem;
+
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: var(--yellow);
+    font-family: var(--font);
+    color: var(--gray-950);
+}
+
+h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+p {
+    margin: 0;
+    font-size: var(--fontsize-paragraph);
+    font-weight: 500;
+}
+
+time {
+    display: block;
+    font-size: var(--fontsize-paragraph);
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.image-avatar {
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.card {
+    height: 50.1rem;
+    width: 32.7rem;
+    border: 1px solid var(--gray-950);
+    border-radius: 2rem;
+    background-color: var(--white);
+    padding: 2.4rem;
+    box-shadow: 1rem 1rem 0 var(--gray-950);
+}
+
+.content {
+    margin: 2.4rem 0;
+}
+
+.content > *:not(:last-child){
+    margin-bottom: 1.2rem;
+}
+
+.content__tag {
+    background-color: var(--yellow);
+    width: fit-content;
+    padding: .4rem 1.2rem;
+    border-radius: .5rem;
+    font-weight: 800;
+}
+
+.content__description {
+    color: var(--gray-500);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex p {
+    font-weight: 800;
+}
+
