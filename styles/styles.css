@@ -25,10 +25,16 @@ body {
     color: var(--gray-950);
 }
 
-h1 {
-    margin: 0;
+.title {
+    display: block;
     font-weight: 800;
     font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: var(--yellow);
 }
 
 p {
