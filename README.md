@@ -29,7 +29,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/Pogo182028/Blog-Preview-Card)
 - Live Site URL: [Live Site](https://frontendmentor-blogpreviewcard182028.netlify.app)
 
 ## My process
@@ -43,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-Este desafío me ayudo a ver las distintas etiquetas que hay y que no conocía, en este caso con la etiqueta <time>.
+This challenge helped me to see the different tags out there that I didn't know about, in this case with the <time> tag.
 
 ### Continued development
 
