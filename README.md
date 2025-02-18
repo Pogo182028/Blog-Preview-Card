@@ -29,7 +29,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/Pogo182028/Blog-Preview-Card)
 - Live Site URL: [Live Site](https://frontendmentor-blogpreviewcard182028.netlify.app)
 
 ## My process
